@@ -18,6 +18,7 @@ body{
 .top{
 	margin: 10px;
 	padding-top: 130px;
+	padding-bottom: 130px;
 }
 
 .icon{
@@ -38,9 +39,9 @@ body{
 	position: fixed;
 }
 
-.text{
+.top-text{
 	font-family: 'Noto Sans Japanese', sans-serif;
 	padding-left: 20px;
 	color: #FFF;
-	font-size: 20px;
+	font-size: 80px;
 }
