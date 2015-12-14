@@ -17,10 +17,16 @@
 .header{
 	width: 100%;
 	height: 110px;
-	background: #333333;
+	background: #CE2D58;
+	margin: 0px;
+}
+
+body{
+	background-color: #333333;
 }
 
 .text{
 	font-family: 'Noto Sans Japanese', sans-serif;
 	padding-left: 20px;
+	color: #FFF;
 }
