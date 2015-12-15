@@ -1,12 +1,15 @@
 <style>
 	 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
-	 @import url(https://fonts.googleapis.com/css?family=Erica+One);
-	 @import url(https://fonts.googleapis.com/css?family=Sigmar+One);
 </style>
 
 img{
 	width: 100%;
 	height: auto;
+}
+
+body{
+	margin: 0;
+	padding: 0;
 }
 
 .body{
