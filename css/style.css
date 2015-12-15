@@ -9,18 +9,18 @@ img{
 	height: auto;
 }
 
-body{
-	background-color: #252627;
-}
-
 .body{
 	overflow: auto;
+	background-color: #CE2D58;
+	position: -1;
 }
 
 .top{
-	margin: 10px;
+	/*margin: 10px;*/
 	padding-top: 100px;
 	padding-bottom: 100px;
+	background-color: #252627;
+	margin: 0;
 }
 
 .icon{
@@ -49,4 +49,15 @@ body{
 	color: #CE2D58;
 	font-size: 140px;
 	text-align: center;
+	margin: 0;
 }
+
+.main{
+	font-family: 'Noto Sans Japanese', sans-serif;
+	padding: 50px 20px;
+	color: #FFF;
+	margin: 0;
+	font-size: 18px;
+}
+
+
