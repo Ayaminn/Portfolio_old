@@ -59,14 +59,17 @@ body{
 	color: #FFF;
 	margin: 0;
 	font-size: 18px;
+	display: table;
 }
 
 .topic{
 	width: 30%; /*150.4*/
 	height: 30%; /*57.6*/
+	/*position: 1 fixed;*/
 	position: 1 fixed;
 	text-align: center;
 	display: inline;
+	margin-left:
 }
 
 .history{
