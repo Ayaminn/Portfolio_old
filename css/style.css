@@ -74,7 +74,19 @@ body{
 	position: relative;
 }
 
+#about{
+	text-align: left;
+}
+
 #history{
+	text-align: center;
+}
+
+#portfolio{
+	text-align: right;
+}	
+
+#historyImg{
 	position: relative;
 	width: 100%;
 	margin: 0 auto;
