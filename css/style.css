@@ -2,6 +2,12 @@
 	 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 </style>
 
+@font-face {
+ font-family: jk-font;
+ src:url('jk_font/JKG-L_3.woff') format('woff'),
+ url('jk_font/JKG-L_3.TTF') format('truetype');
+}
+
 img{
 	width: 100%;
 	height: auto;
@@ -12,9 +18,10 @@ body{
 	padding: 0;
 }
 
-#body{
+.body{
 	overflow: auto;
-	background-color: #CE2D58;
+	background-color: #252627;
+	font-family: jk-font;
 	/*position: -1;*/
 }
 
@@ -22,7 +29,7 @@ body{
 	/*margin: 10px;*/
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background-color: #252627;
+	background-color: #CE2D58;
 	margin: 0;
 }
 
@@ -45,16 +52,18 @@ body{
 }
 
 #top-text{
-	font-family: 'Erica One', cursive;
+	/*font-family: 'Erica One', cursive;*/
+	font-family: jk-font;
 	padding-left: 20px;
-	color: #CE2D58;
+	color: #252627;
 	font-size: 140px;
 	text-align: center;
 	margin: 0;
 }
 
 #main{
-	font-family: 'Noto Sans Japanese', sans-serif;
+	/*font-family: 'Noto Sans Japanese', sans-serif;*/
+	font-family: jk-font;
 	padding: 50px 20px;
 	color: #FFF;
 	margin: auto;
@@ -62,6 +71,7 @@ body{
 	display: table;
 	position: relative;
 	text-align: center;
+	color: #FFF;
 }
 
 #topic{
